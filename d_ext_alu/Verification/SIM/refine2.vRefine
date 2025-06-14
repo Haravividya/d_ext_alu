@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<refinement-file-root>
+  <information comment-version="1" creation-time="Tue 08 Apr 2025 14:18:16 IST" creator="sgeuser33" csCheck="false" save-ref-method="seq" tool-version="Cadence vManager20.09" rules-signature-c="ba2dbc2f4af2226bfe88a4a4a6a7f28d">
+    <ucm-files>
+      <ucm-file domain="icc" modelCheckSum="415359991" path="/home/sgeuser33/vidya/project/d_ext_alu/Verification/SIM/cov_work/scope/cov_merged_output/icc_18c1e3f7_129afbb2.ucm"></ucm-file>
+    </ucm-files>
+    <ccf-files>
+      <ccf-file content="set_covergroup -new_instance_reporting;set_covergroup -per_instance_default_one;set_implicit_block_scoring -off;set_assign_scoring;set_expr_scoring -all;select_functional;" path="/home/sgeuser33/vidya/project/d_ext_alu/Verification/SIM/cov_files/cov_cmd.cf"></ccf-file>
+    </ccf-files>
+  </information>
+  <rules>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/alu_op_cp/fcvt_d_wu" entityType="coverbin" excTime="1744101038" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[2281701376:2415919103]&quot;" entityType="coverbin" excTime="1744101057" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[2415919104:2550136831]&quot;" entityType="coverbin" excTime="1744101076" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[2550136832:2684354559]&quot;" entityType="coverbin" excTime="1744101086" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[2684354560:2818572287]&quot;" entityType="coverbin" excTime="1744101096" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[2818572288:2952790015]&quot;" entityType="coverbin" excTime="1744101118" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[2952790016:3087007743]&quot;" entityType="coverbin" excTime="1744101130" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[134217728:268435455]&quot;" entityType="coverbin" excTime="1744101149" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[268435456:402653183]&quot;" entityType="coverbin" excTime="1744101173" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[402653184:536870911]&quot;" entityType="coverbin" excTime="1744101192" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[536870912:671088639]&quot;" entityType="coverbin" excTime="1744101203" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[671088640:805306367]&quot;" entityType="coverbin" excTime="1744101221" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[805306368:939524095]&quot;" entityType="coverbin" excTime="1744101233" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[3087007744:3221225471]&quot;" entityType="coverbin" excTime="1744101257" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[3221225472:3355443199]&quot;" entityType="coverbin" excTime="1744101267" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[3355443200:3489660927]&quot;" entityType="coverbin" excTime="1744101275" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[3489660928:3623878655]&quot;" entityType="coverbin" excTime="1744101291" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="RISCV_D_ALU/u_cvt_d_w/prelim" entityType="toggle" excTime="1744101746" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="RISCV_D_ALU/u_cvt_d_w/sticky" entityType="toggle" excTime="1744101749" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="RISCV_D_ALU/u_cvt_d_w/round_bit" entityType="toggle" excTime="1744101752" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="RISCV_D_ALU/u_cvt_d_w/guard" entityType="toggle" excTime="1744101755" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="RISCV_D_ALU/u_cvt_d_w/extended" entityType="toggle" excTime="1744101758" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="RISCV_D_ALU/u_cvt_d_w/shift_amt" entityType="toggle" excTime="1744101762" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="RISCV_D_ALU/u_cvt_d_wu/sticky" entityType="toggle" excTime="1744102091" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+  </rules>
+  <cache-map>
+    <cache-entry key="0" value="sgeuser33"></cache-entry>
+  </cache-map>
+</refinement-file-root>

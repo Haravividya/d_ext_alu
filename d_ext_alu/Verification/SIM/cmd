@@ -1,0 +1,55 @@
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1001 +UVM_TESTNAME=FADD_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1002 +UVM_TESTNAME=FSUB_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1003 +UVM_TESTNAME=FMUL_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1004 +UVM_TESTNAME=FMSUB_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1005 +UVM_TESTNAME=FSGNJ_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1006 +UVM_TESTNAME=FSGNJN_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1007 +UVM_TESTNAME=FSGNJX_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1008 +UVM_TESTNAME=FMIN_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1009 +UVM_TESTNAME=FMAX_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1010 +UVM_TESTNAME=FEQ_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1011 +UVM_TESTNAME=FLT_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1012 +UVM_TESTNAME=FLE_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1013 +UVM_TESTNAME=FCVT_D_S_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1014 +UVM_TESTNAME=FCVT_W_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1021 +UVM_TESTNAME=FCVT_WU_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1022 +UVM_TESTNAME=FCVT_D_L_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1023 +UVM_TESTNAME=FCVT_D_LU_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1024 +UVM_TESTNAME=FCVT_L_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1025 +UVM_TESTNAME=FCLASS_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1026 +UVM_TESTNAME=FMV_X_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1027 +UVM_TESTNAME=FMV_D_X_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1028 +UVM_TESTNAME=FNMSUB_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1029 +UVM_TESTNAME=FCVT_S_D_Test
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1033 +UVM_TESTNAME=FCVT_LU_D_Test
+
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 10341 +UVM_TESTNAME=zero_test
+
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1039 +UVM_TESTNAME=one_test
+
+
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1040 +UVM_TESTNAME=corner_test
+
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1034 +UVM_TESTNAME=FDIV_D_Test
+
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1035 +UVM_TESTNAME=FMADD_D_Test
+
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1036 +UVM_TESTNAME=FCVT_D_W_Test
+
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1037 +UVM_TESTNAME=FCVT_D_WU_Test
+
+
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1038 +UVM_TESTNAME=FSQRT_D_Test
+
+
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1037 +UVM_TESTNAME=FNMADD_D_Test
+
+
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1055+UVM_TESTNAME=random_test
+
+
+xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1055+UVM_TESTNAME=random_instruction_data_test
+
+#xrun -access +rwc -f compile_list.f -coverage all -covdut RISCV_D_ALU -covworkdir /cov_work -covoverwrite -covfile ./cov_files/cov_cmd.cf -uvmhome CDNS-1.1d -seed 1055+UVM_TESTNAME=fcvt_sd_coverage_test
+
+

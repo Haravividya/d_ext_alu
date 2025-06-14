@@ -1,0 +1,373 @@
+xrun(64): 20.09-s009: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s009: Started on Jun 14, 2025 at 16:50:24 IST
+xrun
+	-access +rwc
+	-f compile_list.f
+		./../../RTL/rev_5/fp_addsub_d.v
+		./../../RTL/rev_5/fp_class_d.v
+		./../../RTL/rev_5/fp_cmp_d.v
+		./../../RTL/rev_5/fp_cvt_d_lu.v
+		./../../RTL/rev_5/fp_cvt_d_l.v
+		./../../RTL/rev_5/fp_cvt_ds.v
+		./../../RTL/rev_5/fp_cvt_d_wu.v
+		./../../RTL/rev_5/fp_cvt_d_w.v
+		./../../RTL/rev_5/fp_cvt_dw.v
+		./../../RTL/rev_5/fp_cvt_ld.v
+		./../../RTL/rev_5/fp_cvt_lu_d.v
+		./../../RTL/rev_5/fp_cvt_sd.v
+		./../../RTL/rev_5/fp_cvt_wd.v
+		./../../RTL/rev_5/fp_cvt_wu_d.v
+		./../../RTL/rev_5/fp_div_d.v
+		./../../RTL/rev_5/fp_fma_d.v
+		./../../RTL/rev_5/fp_minmax_d.v
+		./../../RTL/rev_5/fp_mul_d.v
+		./../../RTL/rev_5/fp_signj_d.v
+		./../../RTL/rev_5/fp_sqrt_d.v
+		./../../RTL/rev_5/RISCV_D_ALU.v
+		./../UVME/top/d_ext_alu_interface.sv
+		./../UVME/uvm_pkg/test_pkg.sv
+		./../UVME/top/d_ext_alu_top.sv
+	-uvmhome CDNS-1.1d
+	+UVM_TESTNAME=FADD_D_Test
+Recompiling... reason: file '../UVME/agent/d_ext_alu_monitor.sv' is newer than expected.
+	expected: Sat Jun 14 16:47:23 2025
+	actual:   Sat Jun 14 16:50:20 2025
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d
+file: ./../../RTL/rev_5/fp_cvt_d_l.v
+mantissa = mantissa & 52'h000fffffffffffff;
+                                         |
+xmvlog: *W,INTOVF (./../../RTL/rev_5/fp_cvt_d_l.v,37|41): bit overflow during conversion from text [2.5(IEEE)] (52 bits).
+file: ./../UVME/uvm_pkg/test_pkg.sv
+   randc [0:4]alu_op;
+         |
+xmvlog: *W,SVBDDT (./../UVME/sequence/random_seq.sv,6|9): SystemVerilog requires an explicit 'bit', 'reg' or 'logic' just prior to this symbol (an implicit 'logic' is being assumed).
+(`include file: ./../UVME/sequence/random_seq.sv line 6, file: ./../UVME/uvm_pkg/test_pkg.sv line 42)
+   randc [0:4]alu_op;
+         |
+xmvlog: *W,SVBDDT (./../UVME/sequence/random_instruction_data_seq.sv,6|9): SystemVerilog requires an explicit 'bit', 'reg' or 'logic' just prior to this symbol (an implicit 'logic' is being assumed).
+(`include file: ./../UVME/sequence/random_instruction_data_seq.sv line 6, file: ./../UVME/uvm_pkg/test_pkg.sv line 43)
+package test_pkg;
+               |
+xmvlog: *W,TSNSPK (./../UVME/uvm_pkg/test_pkg.sv,1|15): `timescale is not specified for the package.  The default timescale of 1ns/1ns will be assumed for this package.
+	package worklib.test_pkg:sv
+		errors: 0, warnings: 3
+file: ./../UVME/top/d_ext_alu_top.sv
+	module worklib.d_ext_alu_top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		test_pkg
+		fp_cvt_dw
+		d_ext_alu_top
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.uvm_pkg:sv <0x502d7557>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x4fb04b06>
+			streams:  23, words: 37687
+		worklib.uvm_pkg:sv <0x2c0b4532>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x0595c3b3>
+			streams:  23, words: 37690
+		worklib.uvm_pkg:sv <0x0daa22a2>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x36a16c62>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x7afbedf6>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x0e73a375>
+			streams:  23, words: 37690
+		worklib.uvm_pkg:sv <0x33e73c77>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x7d547599>
+			streams:  23, words: 37690
+		worklib.uvm_pkg:sv <0x46d4db17>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x25f87d34>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x5c5b3d6c>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x1e3eb2cc>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x68e3a686>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x6caa3da2>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x7e197a5d>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x7b552c3f>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x4d70c71a>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x608ae784>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x117fee9a>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x76b6d382>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x098130e7>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x5338f327>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x501576d0>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x32d3d8bb>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x5ed647a8>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x07166934>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x4de03920>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x27b882bc>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x724b2e22>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x67fe911f>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x25f2270d>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x36255c3a>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x2bc09392>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x378f14b0>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x1338f883>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x192550f1>
+			streams:  23, words: 36485
+		worklib.uvm_pkg:sv <0x35854f9e>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x7f70f840>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x6f9ee803>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x5fa095c7>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x54679303>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x37b79a1f>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x5e808c3e>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x288425b8>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x786ef0cc>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x36079766>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x2316f1f1>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x736e1826>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x4203293c>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x102d362f>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x78276156>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x38af8d5f>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x4bb40b5a>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x6b301050>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x13dcdd0d>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x10167310>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x50084b0d>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x4dd0f813>
+			streams:  23, words: 36500
+		worklib.uvm_pkg:sv <0x65d3ca2f>
+			streams:  21, words: 21479
+		worklib.uvm_pkg:sv <0x76607e55>
+			streams:  23, words: 35208
+		worklib.uvm_pkg:sv <0x2ef77f30>
+			streams:  21, words: 19563
+		worklib.uvm_pkg:sv <0x503da2f9>
+			streams:  23, words: 28079
+		worklib.uvm_pkg:sv <0x7094657d>
+			streams:  21, words: 19563
+		worklib.uvm_pkg:sv <0x2a0c9797>
+			streams:  23, words: 28079
+		worklib.uvm_pkg:sv <0x7d1803ac>
+			streams:  21, words: 20631
+		worklib.uvm_pkg:sv <0x6ab9986b>
+			streams:  23, words: 28263
+		worklib.uvm_pkg:sv <0x1168f282>
+			streams:  21, words: 20631
+		worklib.test_pkg:sv <0x69590b77>
+			streams:  24, words: 22789
+		worklib.uvm_pkg:sv <0x7d27a512>
+			streams:  22, words: 20343
+		worklib.uvm_pkg:sv <0x4eefd22b>
+			streams:  22, words: 19767
+		worklib.uvm_pkg:sv <0x18ee6add>
+			streams:  44, words: 44561
+		worklib.uvm_pkg:sv <0x0e3c3a68>
+			streams:  22, words: 39910
+		worklib.uvm_pkg:sv <0x00874c42>
+			streams:  37, words: 50236
+		worklib.uvm_pkg:sv <0x2290e5bb>
+			streams:  36, words: 25930
+		worklib.uvm_pkg:sv <0x0ea48fe0>
+			streams:  23, words: 28263
+		worklib.uvm_pkg:sv <0x234c6254>
+			streams:  30, words: 27020
+		worklib.uvm_pkg:sv <0x4b8ef449>
+			streams: 258, words: 311424
+		worklib.uvm_pkg:sv <0x590efb55>
+			streams:  23, words: 52997
+		worklib.d_ext_alu_top:sv <0x77098099>
+			streams:  66, words: 82606
+		worklib.test_pkg:sv <0x7211c296>
+			streams:   0, words:     0
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                       Instances  Unique
+		Modules:                      25      22
+		Interfaces:                    1       1
+		Verilog packages:              5       5
+		Registers:                 17182   11687
+		Scalar wires:                118       -
+		Expanded wires:               69       2
+		Vectored wires:              136       -
+		Named events:                  4      12
+		Always blocks:                29      26
+		Initial blocks:              498     227
+		Parallel blocks:              26      27
+		Cont. assignments:           117     159
+		Pseudo assignments:           14      14
+		Assertions:                    2       2
+		Covergroup Instances:          0       1
+		SV Class declarations:       271     383
+		SV Class specializations:    526     526
+	Writing initial simulation snapshot: worklib.fp_cvt_dw:v
+Loading snapshot worklib.fp_cvt_dw:v .................... Done
+SVSEED default: 1
+xmsim: *W,RNDXCELON: A newer version of the SystemVerilog constraint solver is being used which has better support for array-solving, new solve-order mechanism, and seed stability enhancements..
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> source /tools/cadence_march2021/XCELIUM2009/tools/xcelium/files/xmsimrc
+xcelium> source /tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/additions/sv/files/tcl/uvm_sim.tcl
+xcelium> run
+----------------------------------------------------------------
+CDNS-UVM-1.1d (20.09-s009)
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test FADD_D_Test...
+UVM_INFO ./../UVME/agent/d_ext_alu_driver.sv(20) @ 0: uvm_test_top.env.agent.driver [TEST] Virtual interface successfully assigned
+UVM_INFO @ 0: reporter [UVMTOP] UVM testbench topology:
+------------------------------------------------------------------------
+Name                             Type                        Size  Value
+------------------------------------------------------------------------
+uvm_test_top                     FADD_D_Test                 -     @2898
+  env                            d_ext_alu_env               -     @2972
+    agent                        d_ext_alu_agent             -     @3017
+      driver                     d_ext_alu_driver            -     @3708
+        rsp_port                 uvm_analysis_port           -     @3808
+        seq_item_port            uvm_seq_item_pull_port      -     @3757
+      monitor                    d_ext_alu_monitor           -     @4419
+        analysis_port            uvm_analysis_port           -     @4526
+      sequencer                  d_ext_alu_sequencer         -     @3787
+        rsp_export               uvm_analysis_export         -     @3896
+        seq_item_export          uvm_seq_item_pull_imp       -     @4440
+        arbitration_queue        array                       0     -    
+        lock_queue               array                       0     -    
+        num_last_reqs            integral                    32    'd1  
+        num_last_rsps            integral                    32    'd1  
+    cov                          d_ext_alu_cov               -     @3576
+      analysis_imp               uvm_analysis_imp            -     @3675
+    sbd                          d_ext_alu_sbd               -     @3047
+      expected_transaction_fifo  uvm_tlm_analysis_fifo #(T)  -     @3355
+        analysis_export          uvm_analysis_imp            -     @3596
+        get_ap                   uvm_analysis_port           -     @3547
+        get_peek_export          uvm_get_peek_imp            -     @3451
+        put_ap                   uvm_analysis_port           -     @3499
+        put_export               uvm_put_imp                 -     @3403
+      item_collected_export      uvm_tlm_analysis_fifo #(T)  -     @3046
+        analysis_export          uvm_analysis_imp            -     @3325
+        get_ap                   uvm_analysis_port           -     @3275
+        get_peek_export          uvm_get_peek_imp            -     @3177
+        put_ap                   uvm_analysis_port           -     @3226
+        put_export               uvm_put_imp                 -     @3126
+------------------------------------------------------------------------
+
+UVM_INFO ./../UVME/tests/FADD_D_Test.sv(23) @ 0: uvm_test_top [uvm_test_top] Inside the fadd test
+UVM_INFO ./../UVME/sequence/FADD_D_seq.sv(43) @ 0: uvm_test_top.env.agent.sequencer@@fadd_seq [FADD_D_seq] Starting Scenario 2: Random test case started
+UVM_INFO ./../UVME/agent/d_ext_alu_monitor.sv(35) @ 1: uvm_test_top.env.agent.monitor [MONITOR] Captured: rs1=d05009dc8fc10585
+UVM_INFO ./../UVME/agent/d_ext_alu_monitor.sv(38) @ 1: uvm_test_top.env.agent.monitor [MONITOR] Captured: rs2=2cad9e57796f645c
+UVM_INFO ./../UVME/agent/d_ext_alu_monitor.sv(41) @ 1: uvm_test_top.env.agent.monitor [MONITOR] Captured: rs3=bc0652f31b1df385
+UVM_INFO ./../UVME/agent/d_ext_alu_monitor.sv(44) @ 1: uvm_test_top.env.agent.monitor [MONITOR] Captured: alu_op=00000
+UVM_INFO ./../UVME/agent/d_ext_alu_monitor.sv(47) @ 1: uvm_test_top.env.agent.monitor [MONITOR] Captured: result=d05009dc8fc10585
+UVM_INFO ./../UVME/agent/d_ext_alu_monitor.sv(50) @ 1: uvm_test_top.env.agent.monitor [MONITOR] Captured: fs_rs1=2051468c
+UVM_INFO ./../UVME/agent/d_ext_alu_monitor.sv(53) @ 1: uvm_test_top.env.agent.monitor [MONITOR] Captured: int_rs1=7a8c36ba2a55d8d2
+UVM_INFO ./../UVME/agent/d_ext_alu_monitor.sv(56) @ 1: uvm_test_top.env.agent.monitor [MONITOR] Captured: fs_result=00000000
+UVM_INFO ./../UVME/agent/d_ext_alu_monitor.sv(59) @ 1: uvm_test_top.env.agent.monitor [MONITOR] Captured: int_result=0000000000000000
+UVM_INFO ./../UVME/env/d_ext_alu_cov.sv(106) @ 1: uvm_test_top.env.cov [COVERAGE] alu_op=00000
+UVM_INFO ./../UVME/env/d_ext_alu_sbd.sv(42) @ 1: uvm_test_top.env.sbd [SCOREBOARD] Match: Instruction= 0, Result=0xd05009dc8fc10585, Int=0x0, FS=0x0
+UVM_INFO ./../UVME/sequence/FADD_D_seq.sv(53) @ 11: uvm_test_top.env.agent.sequencer@@fadd_seq [FADD_D_seq] Starting Scenario 2: Random test case done
+UVM_INFO ./../UVME/tests/FADD_D_Test.sv(36) @ 11: uvm_test_top [FADD_D_Test] random add scenario 2 is completed
+UVM_INFO ./../UVME/tests/FADD_D_Test.sv(39) @ 11: uvm_test_top [uvm_test_top] Inside the fadd test done
+UVM_INFO /tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_objection.svh(1268) @ 1011: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+============================================================
+[FADD_D_Test] STATUS    : PASSED
+============================================================
+
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :   20
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[COVERAGE]     1
+[FADD_D_Test]     1
+[FADD_D_seq]     2
+[MONITOR]     9
+[RNTST]     1
+[SCOREBOARD]     1
+[TEST]     1
+[TEST_DONE]     1
+[UVMTOP]     1
+[uvm_test_top]     2
+Simulation complete via $finish(1) at time 1011 NS + 44
+/tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d/sv/src/base/uvm_root.svh:457     $finish;
+xcelium> exit
+TOOL:	xrun(64)	20.09-s009: Exiting on Jun 14, 2025 at 16:50:29 IST  (total: 00:00:05)

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<refinement-file-root>
+  <information comment-version="1" creation-time="Tue 08 Apr 2025 14:17:48 IST" creator="sgeuser33" csCheck="false" modified-by="sgeuser33" modify-time="Tue 15 Apr 2025 09:24:42 IST" save-ref-method="seq" tool-version="Cadence vManager20.09" rules-signature-c="a644ce504991c566ace352dcafd8ecb">
+    <ucm-files>
+      <ucm-file domain="icc" modelCheckSum="415359991" path="/home/sgeuser33/vidya/project/d_ext_alu/Verification/SIM/cov_work/scope/cov_merged_output/icc_18c1e3f7_21025c68.ucm"></ucm-file>
+    </ucm-files>
+    <ccf-files>
+      <ccf-file content="set_covergroup -new_instance_reporting;set_covergroup -per_instance_default_one;set_implicit_block_scoring -off;set_assign_scoring;set_expr_scoring -all;select_functional;" path="/home/sgeuser33/vidya/project/d_ext_alu/Verification/SIM/cov_files/cov_cmd.cf"></ccf-file>
+    </ccf-files>
+  </information>
+  <rules>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/alu_op_cp/fcvt_d_wu" entityType="coverbin" excTime="1744101008" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[268435456:536870911]&quot;" entityType="coverbin" excTime="1744101016" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+    <rule ccType="inst" domain="icc" entityName="uvm_pkg/uvm_test_top/env/cov/alu_io_cg/fs_result_cp/&quot;auto[536870912:805306367]&quot;" entityType="coverbin" excTime="1744101022" name="exclude" reviewer="unknown" user="0" vscope="default"></rule>
+  </rules>
+  <cache-map>
+    <cache-entry key="0" value="sgeuser33"></cache-entry>
+  </cache-map>
+</refinement-file-root>

@@ -1,0 +1,2 @@
+s1(14Jun2025:16:48:51):  xrun -access +rwc -f compile_list.f -uvmhome CDNS-1.1d +UVM_TESTNAME=FADD_D_Test 
+s2(14Jun2025:16:50:24):  xrun -access +rwc -f compile_list.f -uvmhome CDNS-1.1d +UVM_TESTNAME=FADD_D_Test 
